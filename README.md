@@ -46,10 +46,12 @@ Run the program
 python main.py
 
 🎯 How It Works
-Parameter	Description	Threshold
-MAR (Mouth Aspect Ratio)	Measures vertical vs. horizontal mouth distance to detect yawning	> 0.8
-EAR (Eye Aspect Ratio)	Measures openness of eyes to detect drowsiness	< 0.2
-EYE_CLOSED_TIME_THRESHOLD	Duration (seconds) eyes remain closed before alert	2s
+| Parameter                     | Description                                                       | Threshold |
+| ----------------------------- | ----------------------------------------------------------------- | --------- |
+| **MAR (Mouth Aspect Ratio)**  | Measures vertical vs. horizontal mouth distance to detect yawning | `> 0.8`   |
+| **EAR (Eye Aspect Ratio)**    | Measures openness of eyes to detect drowsiness                    | `< 0.2`   |
+| **EYE_CLOSED_TIME_THRESHOLD** | Duration (seconds) eyes remain closed before alert                | `2s`      |
+
 
 When the user yawns repeatedly or keeps eyes closed too long, a voice alert like
 
